@@ -6,7 +6,7 @@
 
 int main( int argc, char *argv[] )
 {
-	// check2
+	// check3
 	printf("hello world2\n");
 	
 
@@ -15,6 +15,6 @@ int main( int argc, char *argv[] )
 	printf("hello world2\n");
 	printf("hello world2\n");
 	printf("hello world2\n");
-	printf("hello world2\n");
+
 	return 0;
 }
