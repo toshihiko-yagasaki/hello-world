@@ -12,9 +12,11 @@ LIBS = -lpthread
 TARGET = test_prg
 SRCS = \
 	src/main.c
+	src/test.c
 
 OBJS = \
 	src/main.o
+	src/test.0
 
 
 .SUFFIXES : .o .c
