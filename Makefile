@@ -21,7 +21,7 @@ OBJS = \
 
 .c.o : ${SRCS} ${HEADS} 
 	$(CC) $(CFLAGS) $(INCLUDE) -c -o $*.o $< 
-	-echo $(MAKE_VER) > .version
+	-echo $(MAKE_VER) 
 all:	${OBJS}
 	$(CC) $(CFLAGS) -o ${TARGET}${MAKE_VER} ${OBJS} ${LIBS}
 clean :
